@@ -1,0 +1,9 @@
+1 | ngopi | incomplete | No  
+2 | ngocok | complete | No  
+3 | ngoding | incomplete | No  
+4 | makan | incomplete | yes  
+5 | belajar | complete | No  
+6 | beresin kamar | incomplete | No  
+7 | ngaji | incomplete | No  
+8 | ngombe | incomplete | No  
+9 | maem | incomplete | No  
