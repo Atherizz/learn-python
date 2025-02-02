@@ -1,6 +1,6 @@
 import pandas as pd
 
-# df = pd.read_excel("ekskul .xlsx")
+# df = pd.read_excel("ekskul.xlsx")
 
 # print("First 10 rows : \n" , df.head())
 

@@ -1,5 +1,4 @@
 1 | ngopi | incomplete | No  
-2 | ngocok | complete | No  
 3 | ngoding | incomplete | No  
 4 | makan | incomplete | yes  
 5 | belajar | complete | No  

@@ -27,6 +27,6 @@ def read_items_from_file(filename):
         
         
 count_words_and_lines("sialan.txt")
-lirik = ["jancok", "memek", "jembud"]
+lirik = ["halo", "tes", "halo lagi"]
 write_item_to_file("sialan.txt", lirik)
 read_items_from_file("sialan.txt")
