@@ -20,4 +20,12 @@ def range_func(x):
     return x.max() - x.min()
 
 df.groupby("category_column")["numeric_colummn"].agg(range_func)
-    
+
+df.groupby("category_column")["numeric_colummn"].mean()
+df.groupby("category_column")["numeric_colummn"].max()
+df.groupby("category_column")["numeric_colummn"].min()
+
+df.groupby("category_column").agg(
+    {"numeric_column": ["mean", "min", "max"]}
+    )
+

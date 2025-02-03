@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 # Dataset Siswa
 data_siswa = {
     "nis": [101, 102, 103, 104, 105, 106],
@@ -62,6 +63,8 @@ print("Data yang telah dihapus : \n", gabungan_data)
 
 one_hot = pd.get_dummies(gabungan_data, columns=['nilai_inggris'])
 print("Hasil menggunakan pd.get_dummies():\n", one_hot)
+
+
 
 
 

@@ -1,0 +1,63 @@
+Operasi Statistik Dasar:
+
+count: Menghitung jumlah baris
+sum: Menjumlahkan nilai
+mean: Rata-rata
+median: Nilai tengah
+min: Nilai minimum
+max: Nilai maksimum
+mode: Modus (nilai yang paling sering muncul)
+
+
+Operasi Statistik Lanjutan:
+
+std: Standar deviasi
+var: Variance
+sem: Standard error of mean
+skew: Skewness (kemiringan distribusi)
+kurt: Kurtosis (keruncingan distribusi)
+quantile: Bisa menghitung berbagai persentil
+describe: Memberikan ringkasan statistik lengkap
+
+
+Operasi Posisi:
+
+first: Nilai pertama dalam group
+last: Nilai terakhir dalam group
+nth: Nilai ke-n dalam group
+head: n baris pertama
+tail: n baris terakhir
+
+
+Operasi Khusus:
+
+nunique: Menghitung jumlah nilai unik
+unique: Mendapatkan nilai-nilai unik
+value_counts: Menghitung frekuensi nilai
+size: Ukuran setiap group
+
+
+Custom Operations:
+
+Bisa membuat fungsi kustom sendiri dengan lambda atau fungsi yang didefinisikan
+Contoh: menghitung range, persentase, rasio, dll
+
+
+Multiple Aggregations:
+
+Bisa menggabungkan beberapa operasi sekaligus
+Bisa menggunakan operasi berbeda untuk kolom berbeda
+Bisa menggunakan named aggregation untuk hasil yang lebih rapi
+
+
+Window Functions:
+
+rolling: Untuk perhitungan bergerak (moving calculations)
+expanding: Untuk perhitungan kumulatif
+shift: Untuk menggeser data
+
+
+Transformations:
+
+transform: Menerapkan operasi sambil mempertahankan index original
+apply: Menerapkan fungsi kustom ke seluruh group
