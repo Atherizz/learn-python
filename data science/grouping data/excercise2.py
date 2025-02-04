@@ -5,10 +5,10 @@ data = pd.read_csv("sales-data-sample.csv")
 df = data.head(50)
 print(df)
 
-grouped = df.groupby("City").agg({
-    "latitude" : ["mean", "max", "min"], "longitude" : ["mean", "max", "min"]
-})
-print(grouped)
+# grouped = df.groupby("City").agg({
+#     "latitude" : ["mean", "max", "min"], "longitude" : ["mean", "max", "min"]
+# })
+# print(grouped)
 
 # pivot = df.pivot_table(
 #     values="lat",
